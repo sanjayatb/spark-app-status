@@ -82,6 +82,6 @@ def formatToHtmlReport(Map result) {
 }
 
 def getStatus(result, environment, app) {
-    String key = result.keySet().find{if it.toString().contains(app) && it.toString().contains(environment) return it}
+    String key = result.keySet().find{if (it.toString().contains(app) && it.toString().contains(environment)) return it}
     return result.getAt(key)
 }
