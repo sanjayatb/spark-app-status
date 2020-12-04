@@ -1,2 +1,2 @@
 # spark-app-status
-Spark application status email jenkin script
+Spark application status emailing jenkin script
